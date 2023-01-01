@@ -1,0 +1,14 @@
+.tareas-lista-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .tareas-lista-contenedor {
+        width: 100%;
+        margin: auto;
+    }
+}

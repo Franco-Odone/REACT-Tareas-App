@@ -1,0 +1,27 @@
+.tareas-lista-principal {
+    width: 600px;
+    min-height: 500px;
+    background-color: #d0d0d5;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 26px;
+}
+
+h2 {
+    color: #1b1b32;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        width: 50%;
+        margin: auto;
+    }
+
+    .tareas-lista-principal {
+        width: 90%;
+        margin: auto;
+    }
+}

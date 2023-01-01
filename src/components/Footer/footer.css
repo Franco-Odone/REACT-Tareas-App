@@ -1,0 +1,20 @@
+.footer-contenedor {
+    color: #aaaaaa;
+}
+
+.enlace-github {
+    color: #ffffff;
+}
+
+.enlace-github:hover {
+    color: #8c2246;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-contenedor {
+        text-align: center;
+        width: 100%;
+        margin: 15px 0 15px 0;
+        padding: 0 15px 0 15px;
+    }
+}
